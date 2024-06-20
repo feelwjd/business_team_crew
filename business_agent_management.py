@@ -47,7 +47,7 @@ business_idea_task = Task(
     이와 같은 내용을 바탕으로, subject에 대한 사업 아이디어를 구체화하고 시장 조사를 수행하여 사용자가 원하는 사업을 성공적으로 추진할 수 있도록 지원합니다.
     포맷은 markdown으로 해주고, 한글로 작성해야 합니다. 
     """,
-    output_file='/BusinessReport/1.md'
+    output_file='/gpt-4o-response/1.md'
 )
 
 # def business_idea_callback(output):
@@ -72,7 +72,7 @@ business_idea_task = Task(
 #     초기 전략: --초기 전략--
 #     """,
 #     #callback=business_idea_callback,
-#     output_file='/BusinessReport/1.md'
+#     output_file='/gpt-4o-response/1.md'
 # )
 
 
@@ -119,7 +119,7 @@ market_research_task = Task(
     이와 같은 내용을 바탕으로, 사업 아이디어에 대한 심층적인 시장 조사를 수행하여 사용자가 원하는 사업을 성공적으로 추진할 수 있도록 지원합니다.
     포맷은 markdown으로 해주고, 한글로 작성해야 합니다.
     """,
-    output_file='/BusinessReport/2.md'
+    output_file='/gpt-4o-response/2.md'
 )
 
 # def market_research_callback(output):
@@ -149,7 +149,7 @@ market_research_task = Task(
 #     """,
 #     #callback=market_research_callback,
 #     context=[business_idea_task],
-#     output_file='/BusinessReport/2.md'
+#     output_file='/gpt-4o-response/2.md'
 # )
 
 
@@ -211,7 +211,7 @@ business_plan_task = Task(
     이와 같은 내용을 바탕으로, 구체적이고 실행 가능한 사업 계획서를 작성하여 사용자가 원하는 사업을 성공적으로 추진할 수 있도록 지원합니다.
     포맷은 markdown으로 해주고, 한글로 작성해야 합니다.
     """,
-    output_file='/BusinessReport/3.md'
+    output_file='/gpt-4o-response/3.md'
 )
 
 # def business_plan_callback(output):
@@ -251,7 +251,7 @@ business_plan_task = Task(
 #     """,
 #     #callback=business_plan_callback,
 #     context=[market_research_task],
-#     output_file='/BusinessReport/3.md'
+#     output_file='/gpt-4o-response/3.md'
 # )
 
 
@@ -310,7 +310,7 @@ requirement_definition_task = Task(
     이와 같은 내용을 바탕으로, 사업 개요에 대한 기술적 요구사항을 체계적으로 정의하여 시스템 개발이 원활하게 이루어질 수 있도록 지원합니다.
     포맷은 markdown으로 해주고, 한글로 작성해야 합니다.
     """,
-    output_file='/BusinessReport/4.md'
+    output_file='/gpt-4o-response/4.md'
 )
 
 # def requirement_definition_callback(output):
@@ -346,7 +346,7 @@ requirement_definition_task = Task(
 #     """,
 #     #callback=requirement_definition_callback,
 #     context=[business_plan_task],
-#     output_file='/BusinessReport/4.md'
+#     output_file='/gpt-4o-response/4.md'
 # )
 
 
